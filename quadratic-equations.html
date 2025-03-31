@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quadratic Equations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quadratic Equations</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quadratic-functions.html">Quadratic Functions</a></li>
+        <li><a href="quadratic-equations.html">Quadratic Equations</a></li>
+        <li><a href="quadratic-graphs.html">Quadratic Graphs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>What is a Quadratic Equation?</h2>
+    <p>A quadratic equation is a second-degree polynomial equation in one variable, which means the highest exponent of the variable is 2. The general (standard) form is:</p>
+    <p><code>ax² + bx + c = 0</code></p>
+    <p>Where:</p>
+    <ul>
+      <li><code>a</code>, <code>b</code>, and <code>c</code> are real numbers</li>
+      <li><code>a ≠ 0</code> (If <code>a = 0</code>, it becomes a linear equation)</li>
+    </ul>
+
+    <h2>Methods of Solving Quadratic Equations</h2>
+
+    <h3>1. Factoring</h3>
+    <p>Write the equation in the form <code>ax² + bx + c = 0</code> and factor the left-hand side.</p>
+    <p><strong>Example:</strong></p>
+    <p><code>x² - 5x + 6 = 0</code></p>
+    <p>Factor: <code>(x - 2)(x - 3) = 0</code></p>
+    <p>Set each factor to zero: <code>x = 2</code> or <code>x = 3</code></p>
+
+    <h3>2. Using the Quadratic Formula</h3>
+    <p>For any equation in standard form, use the formula:</p>
+    <p><strong><code>x = (-b ± √(b² - 4ac)) / (2a)</code></strong></p>
+
+    <p><strong>Steps:</strong></p>
+    <ul>
+      <li>Identify <code>a</code>, <code>b</code>, and <code>c</code> from the equation</li>
+      <li>Calculate the discriminant: <code>D = b² - 4ac</code></li>
+      <li>If <code>D > 0</code>, you get two real solutions</li>
+      <li>If <code>D = 0</code>, one real solution</li>
+      <li>If <code>D < 0</code>, two complex (imaginary) solutions</li>
+    </ul>
+
+    <p><strong>Example:</strong></p>
+    <p><code>2x² + 3x - 2 = 0</code></p>
+    <p>Here, <code>a = 2</code>, <code>b = 3</code>, <code>c = -2</code></p>
+    <p>Discriminant: <code>D = 3² - 4(2)(-2) = 9 + 16 = 25</code></p>
+    <p><code>x = (-3 ± √25) / 4</code> → <code>x = (-3 ± 5) / 4</code></p>
+    <p>Solutions: <code>x = 0.5</code> and <code>x = -2</code></p>
+
+    <h3>3. Completing the Square</h3>
+    <p>This method rewrites the quadratic into a perfect square trinomial. Use when factoring doesn't work easily.</p>
+
+    <p><strong>Steps:</strong></p>
+    <ol>
+      <li>Move the constant to the other side</li>
+      <li>Divide all terms so the coefficient of <code>x²</code> is 1</li>
+      <li>Add the square of half of <code>b</code> to both sides</li>
+      <li>Factor and solve</li>
+    </ol>
+
+    <p><strong>Example:</strong></p>
+    <p><code>x² + 6x = 7</code></p>
+    <p>Half of 6 is 3 → 3² = 9</p>
+    <p>Add 9 to both sides: <code>x² + 6x + 9 = 16</code></p>
+    <p>Now: <code>(x + 3)² = 16</code></p>
+    <p>Take the square root: <code>x + 3 = ±4</code></p>
+    <p>Solutions: <code>x = 1</code> and <code>x = -7</code></p>
+
+    <h2>Other Notes</h2>
+
+    <h3>Discriminant Summary:</h3>
+    <ul>
+      <li><code>D = b² - 4ac</code></li>
+      <li><strong>If D > 0:</strong> Two real and distinct roots</li>
+      <li><strong>If D = 0:</strong> One real root (a repeated solution)</li>
+      <li><strong>If D < 0:</strong> Two complex roots (no real solutions)</li>
+    </ul>
+
+    <h3>Special Cases:</h3>
+    <ul>
+      <li><strong>Perfect square trinomial:</strong> <code>x² + 6x + 9 = (x + 3)²</code></li>
+      <li><strong>Difference of squares:</strong> <code>x² - 9 = (x - 3)(x + 3)</code></li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Understanding how to solve quadratic equations is a key skill in algebra and will help in calculus, physics, engineering, and many real-life problems. Master the three main solving methods and know when to use each!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name | Pre-Calculus 11 Project</p>
+  </footer>
+</body>
+</html>
